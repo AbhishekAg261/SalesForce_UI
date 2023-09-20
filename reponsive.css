@@ -1,0 +1,518 @@
+@media(max-width:1300px) {
+    .menu-bar {
+        display: initial;
+        margin-right: 30px;
+    }
+
+    .header-section .header-left {
+        padding-inline: 40px;
+    }
+
+    .left-links {
+        display: none;
+    }
+
+    .right-links li:first-child {
+        display: none;
+    }
+
+    .right-links li:nth-child(3) {
+        display: none;
+    }
+
+    .right-links li:nth-child(4) p {
+        display: none;
+    }
+
+    .main-nav {
+        padding: 3px 40px;
+    }
+
+    .main-nav .nav-left img {
+        width: 50px;
+        margin-top: 4px;
+    }
+
+    .main-nav .primary-btn {
+        padding-block: 3px;
+    }
+
+    .main-nav .nav-left {
+        flex-basis: 100px;
+    }
+}
+
+@media(max-width:1000px) {
+    .top-banner .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .header-section {
+        flex-direction: column;
+    }
+
+    .header-section .header-left {
+        max-width: 100%;
+        padding-inline: 60px;
+    }
+
+    header {
+        background: url(./images/new\ header.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .example-header {
+        padding-inline: 70px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    /* example section */
+    .example-cards {
+        width: 48%;
+    }
+
+    .example-cards p {
+        margin-block: 20px 40px;
+    }
+
+    .example-section .container {
+        padding-inline: 20px;
+    }
+
+    .examples-button {
+        margin-block: 60px 150px;
+    }
+
+    /* company section */
+
+    .companies {
+        border-bottom-left-radius: 90% 20%;
+        border-bottom-right-radius: 90% 20%;
+    }
+
+    .company-section1 {
+        padding: 60px 90px;
+        text-align: center;
+    }
+
+    .company-section1 h2 {
+        font-size: 2.4rem;
+    }
+
+    .company-section2 {
+        padding: 60px 90px;
+        text-align: center;
+    }
+
+    .company-section2 h2 {
+        font-size: 2.4rem;
+    }
+
+    .logo-div {
+        width: 23%;
+    }
+
+    .logo-section {
+        margin-bottom: 200px;
+    }
+
+    /* trial section */
+
+    .trial-section {
+        padding-inline: 20px;
+    }
+
+    .trial-section .trial-left {
+        padding: 60px 30px;
+        width: 44vw;
+    }
+
+    .trial-section .trial-left h2 {
+        font-size: 2rem;
+    }
+
+    .trial-section .trial-right {
+        width: 44vw;
+    }
+
+    /* features section */
+
+    .features-header {
+        padding: 60px 110px;
+    }
+
+    .features .feature-card {
+        max-width: 46%;
+    }
+
+    .features {
+        padding-inline: 50px;
+    }
+
+    /* more info */
+    .more-info-section h2 {
+        padding: 60px 110px;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .more-info {
+        gap: 25px;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+    }
+
+    .question-section {
+        padding-inline: 20px;
+        margin-bottom: 50px;
+    }
+
+    .question-links a:first-child {
+        margin-right: 160px;
+    }
+
+    .question-info {
+        max-width: 400px;
+    }
+
+    .question-section .question-box {
+        padding-top: 34px;
+    }
+
+    .question-links {
+        gap: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+
+    /* header section */
+
+    .header-section .header-left {
+        max-width: 100%;
+        padding-inline: 0px;
+    }
+
+    .header-section .header-left h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-section .header-button {
+        flex-direction: column;
+    }
+
+    .header-section a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-right img {
+        height: 600px;
+    }
+
+    .question-links {
+        gap: 20px;
+    }
+
+    /* example section */
+    .example-header {
+        padding-inline: 20px;
+    }
+
+    .example-cards {
+        width: 98%;
+        height: 600px;
+    }
+
+    .examples-button {
+        background-color: #ffffff;
+    }
+
+    .examples-button a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* company section */
+    .company-section1,
+    .company-section2 {
+        padding: 60px 0px;
+    }
+
+    .company-section1,
+    .company-section2 h2 {
+        font-size: 2.2rem;
+    }
+
+    .company-section1 .company-button {
+        flex-direction: column;
+    }
+
+    .company-section1 .company-button a {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .company-section2 a {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .logo-div {
+        width: 20%;
+    }
+
+    .logo-section {
+        margin-bottom: 100px;
+        gap: 30px;
+    }
+
+    /* trial section */
+
+    .trial-section {
+        padding-inline: 20px;
+    }
+
+    .trial-section .trial-left {
+        padding: 60px 0px;
+        width: 100%;
+    }
+
+    .trial-section .trial-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trial-section .trial-right {
+        width: 100%;
+    }
+
+    .trial-section .trial-right img {
+        height: 500px;
+    }
+
+
+    /* features section */
+
+    .features-header {
+        padding: 60px 0px;
+    }
+
+    .features {
+        gap: 50px;
+    }
+
+    .features .feature-card {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .features {
+        padding-inline: 0px;
+    }
+
+    /* more-info-section */
+
+
+    .more-info-section .more-info-header h2 {
+        padding: 60px 0px;
+    }
+
+    .more-info-cards {
+        width: 100%;
+        height: 450px;
+    }
+
+    .more-info-cards img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .more-info-section {
+        border-bottom-left-radius: 90% 10%;
+        border-bottom-right-radius: 90% 10%;
+    }
+
+
+    /* question section */
+
+    .question-section .question-box {
+        background-position: right;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .question-section {
+        height: 800px;
+    }
+
+    .question-section .question-info {
+        max-width: 100%;
+    }
+
+    .question-links {
+        flex-direction: column;
+    }
+
+    .question-links a {
+        width: 100%;
+    }
+
+    .question-links a:first-child {
+        margin-right: 0;
+    }
+
+    /* last banner section */
+    .last-section {
+        padding-bottom: 25px;
+    }
+
+    .banner-last .last-section {
+        justify-content: center;
+    }
+
+    .end-btn {
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 2px 2px;
+    }
+}
+
+
+
+
+@media(max-width:479px) {
+
+    /* navbar */
+    .main-nav .nav-left {
+        flex-basis: 0px;
+    }
+
+    /* header section */
+    .header-section .header-left {
+        padding-inline: 0px;
+    }
+
+    .header-right img {
+        height: 400px;
+    }
+
+
+    /* example section */
+    .example-header {
+        padding-inline: 0px;
+    }
+
+    .example-cards {
+        width: 100%;
+        height: 550px;
+    }
+
+    .examples-button {
+        background-color: #ffffff;
+        margin-bottom: 60px;
+    }
+
+    /* company section */
+
+    .company-section1,
+    .company-section2 h2 {
+        font-size: 2.0rem;
+    }
+
+    .logo-div {
+        width: 40%;
+    }
+
+    /* trial section */
+
+    .trial-section {
+        padding-inline: 20px;
+    }
+
+    .trial-section .trial-left {
+        padding: 20px 0px;
+    }
+
+    .trial-section .trial-right img {
+        height: 350px;
+    }
+
+    /*  features section */
+    .features-header {
+        padding: 40px 0px;
+    }
+
+    .features {
+        padding-inline: 0px;
+    }
+
+    /* more info section */
+
+    .more-info-section .more-info-header h2 {
+        padding: 0px 0px;
+        margin-bottom: 20px;
+    }
+
+    .more-info-cards {
+        width: 100%;
+        height: 250px;
+    }
+
+    .more-info-cards img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .more-info-section {
+        border-bottom-left-radius: 90% 10%;
+        border-bottom-right-radius: 90% 10%;
+    }
+
+    /* question section */
+
+    .question-section .question-box {
+        background-position: bottom;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .question-section {
+        height: 700px;
+    }
+
+    .question-section .question-info {
+        max-width: 100%;
+    }
+
+    .question-links {
+        flex-direction: column;
+    }
+
+    .question-links a {
+        width: 100%;
+    }
+
+    .question-links a:first-child {
+        margin-right: 0;
+    }
+
+    /* banner section */
+    .end-links2 {
+        gap: 5px;
+    }
+
+}
